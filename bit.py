@@ -127,7 +127,7 @@ class BitClient:
 
 
     #查询用户交割记录
-    def get_user_deliveries(self,currency,category=None,instrument_id=None,start_time=None,end_time=None,offset=None:int,limit=None:int):
+    def get_user_deliveries(self,currency,category=None,instrument_id=None,start_time=None,end_time=None,offset:int=None,limit:int=None):
         data={
             'currency': currency,
             'category':category,

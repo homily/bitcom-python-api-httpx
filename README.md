@@ -31,7 +31,7 @@ pp(x.get_settlement_prices('BTC',1614721270695,1614827271695))
 
 # 可使用pp(dir(x))输出所有def
 # 1.使用HTTPX模块访问
-# 2.已完成get、post、鉴权、等相关代码
+# 2.已完成get、post、鉴权、等相关代码，但未实现全部api函数
 
 
 wx：homily124

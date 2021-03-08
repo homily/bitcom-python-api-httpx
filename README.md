@@ -5,8 +5,6 @@ bit.com交易所SDK
 
 ```
 from bit import *
-import pandas as pd
-import time
 from pprint import pp
 
 

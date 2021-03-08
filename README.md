@@ -3,7 +3,7 @@ bit.com SDK （HTTPX）
 bit.com交易所SDK
 
 
-
+'''
 from bit import *
 import pandas as pd
 import time
@@ -27,7 +27,7 @@ pp(x.get_funding_rate('ETH-PERPETUAL'))
 pp(x.get_total_volumes())
 pp(x.get_funding_rate_history('ETH-PERPETUAL',1614721270695,1614827271695,'24H'))
 pp(x.get_settlement_prices('BTC',1614721270695,1614827271695))
-
+'''
 
 
 

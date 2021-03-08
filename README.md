@@ -29,9 +29,9 @@ pp(x.get_settlement_prices('BTC',1614721270695,1614827271695))
 #s=x.post_orders('BTC-PERPETUAL','20','buy','48000.0','limit')
 ```
 
-#可使用pp(dir(x))输出所有def
-#1.使用HTTPX模块访问
-#2.已完成get、post、鉴权、等相关代码
+# 可使用pp(dir(x))输出所有def
+# 1.使用HTTPX模块访问
+# 2.已完成get、post、鉴权、等相关代码
 
 
 wx：homily124
